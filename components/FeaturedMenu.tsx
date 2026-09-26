@@ -44,7 +44,7 @@ export default function FeaturedMenu() {
           >
             <div className="relative aspect-[16/11] overflow-hidden rounded-md mb-6">
               <img
-                src="https://images.pexels.com/photos/5620668/pexels-photo-5620668.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/breakfast-fav.jpeg"
                 alt="Eggs benedict and banana toast served at a café"
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -76,7 +76,7 @@ export default function FeaturedMenu() {
             >
               <div className="relative aspect-[4/3] overflow-hidden rounded-md mb-5">
                 <img
-                  src="https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/fresh-prasties.jpeg"
                   alt="Croissant filled with cream and strawberries"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
@@ -99,7 +99,7 @@ export default function FeaturedMenu() {
             >
               <div className="relative aspect-[4/3] overflow-hidden rounded-md mb-5">
                 <img
-                  src="https://images.pexels.com/photos/5865760/pexels-photo-5865760.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/cafe-classic.jpeg"
                   alt="Avocado toast with poached eggs on a rustic wooden table"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"

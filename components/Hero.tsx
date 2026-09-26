@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         {/* Using a standard img tag instead of next/image to avoid heavy overlay */}
         <img
-          src="https://images.pexels.com/photos/10204269/pexels-photo-10204269.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/vandys-bg.jpeg"
           alt="Latte art coffee on a wooden table in warm morning light"
           className="h-full w-full object-cover"
           fetchPriority="high"

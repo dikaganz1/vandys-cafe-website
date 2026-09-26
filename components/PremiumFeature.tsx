@@ -10,7 +10,7 @@ export default function PremiumFeature() {
       {/* Full-width image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/972845/pexels-photo-972845.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/take a moment bg.jpeg"
           alt="Serene café interior with sunlight streaming through large windows"
           className="h-full w-full object-cover opacity-40"
           loading="lazy"

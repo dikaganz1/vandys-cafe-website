@@ -53,7 +53,7 @@ export default function IntroSection() {
           >
             <div className="relative aspect-[4/5] overflow-hidden rounded-md">
               <img
-                src="https://images.pexels.com/photos/32590864/pexels-photo-32590864.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/barista.jpeg"
                 alt="Barista pouring steamed milk to create latte art"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -62,7 +62,7 @@ export default function IntroSection() {
             {/* Small accent image */}
             <div className="absolute -bottom-8 -left-8 w-40 h-52 overflow-hidden rounded-md shadow-xl border-4 border-warm-white hidden md:block">
               <img
-                src="https://images.pexels.com/photos/30283107/pexels-photo-30283107.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/espresso.jpeg"
                 alt="Fresh espresso shot in a glass cup"
                 className="h-full w-full object-cover"
                 loading="lazy"

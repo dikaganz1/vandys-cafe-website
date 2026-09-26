@@ -18,7 +18,7 @@ export default function About() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-md">
               <img
-                src="https://images.pexels.com/photos/18721982/pexels-photo-18721982.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/a local place.jpeg"
                 alt="Cafe interior with wooden chairs, tables, and greenery"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -62,17 +62,17 @@ export default function About() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {[
             {
-              src: 'https://images.pexels.com/photos/34104248/pexels-photo-34104248.jpeg?auto=compress&cs=tinysrgb&w=800',
+              src: '/local place1.jpg',
               alt: 'Inviting café interior with wooden decor and ambient lighting',
               span: 'md:col-span-1',
             },
             {
-              src: 'https://images.pexels.com/photos/29599050/pexels-photo-29599050.jpeg?auto=compress&cs=tinysrgb&w=800',
+              src: '/local place2.jpg',
               alt: 'Artistic latte with coffee beans on a wooden table',
               span: 'md:col-span-1',
             },
             {
-              src: 'https://images.pexels.com/photos/6140394/pexels-photo-6140394.jpeg?auto=compress&cs=tinysrgb&w=800',
+              src: '/local place3.jpg',
               alt: 'Friends enjoying coffee together at an outdoor cafe',
               span: 'col-span-2 md:col-span-1',
             },

@@ -7,14 +7,14 @@ const items = [
     title: 'Espresso',
     description: 'Rich, balanced, and crafted for coffee lovers.',
     image:
-      'https://images.pexels.com/photos/30283107/pexels-photo-30283107.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/esspresso1.jpeg',
     alt: 'Freshly brewed espresso shot in a glass cup',
   },
   {
     title: 'Latte',
     description: "One of Vandys Cafe's featured favourites.",
     image:
-      'https://images.pexels.com/photos/459489/pexels-photo-459489.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/latte.jpeg',
     alt: 'Latte with heart-shaped art in a cup on a wooden table',
   },
   {
@@ -22,7 +22,7 @@ const items = [
     description:
       'A selection of drinks prepared for everyday coffee moments.',
     image:
-      'https://images.pexels.com/photos/37034121/pexels-photo-37034121.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/favourite.jpeg',
     alt: 'Cups of coffee with intricate latte art on a wooden table',
   },
 ];

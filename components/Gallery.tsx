@@ -12,62 +12,62 @@ type GalleryImage = {
 
 const images: GalleryImage[] = [
   {
-    src: 'https://images.pexels.com/photos/459489/pexels-photo-459489.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/coffee1.jpg',
     alt: 'Latte with heart-shaped art in a blue cup',
     category: 'Coffee',
   },
   {
-    src: 'https://images.pexels.com/photos/34104248/pexels-photo-34104248.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/cafe1.jpg',
     alt: 'Café interior with wooden decor and ambient lighting',
     category: 'Cafe',
   },
   {
-    src: 'https://images.pexels.com/photos/5620668/pexels-photo-5620668.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/food1.jpg',
     alt: 'Eggs benedict and banana toast served at a café',
     category: 'Food',
   },
   {
-    src: 'https://images.pexels.com/photos/36729519/pexels-photo-36729519.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/moment1.jpg',
     alt: 'Barista serving coffee to friends at a cozy café',
     category: 'Moments',
   },
   {
-    src: 'https://images.pexels.com/photos/30283107/pexels-photo-30283107.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/coffee2.jpg',
     alt: 'Freshly brewed espresso shot in a glass cup',
     category: 'Coffee',
   },
   {
-    src: 'https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/food2.jpg',
     alt: 'Croissant filled with cream and strawberries',
     category: 'Food',
   },
   {
-    src: 'https://images.pexels.com/photos/18721982/pexels-photo-18721982.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/cafe2.jpg',
     alt: 'Cafe interior with wooden chairs, tables, and greenery',
     category: 'Cafe',
   },
   {
-    src: 'https://images.pexels.com/photos/6140394/pexels-photo-6140394.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/moment2.jpg',
     alt: 'Friends enjoying coffee together at an outdoor cafe',
     category: 'Moments',
   },
   {
-    src: 'https://images.pexels.com/photos/10204269/pexels-photo-10204269.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/coffee3.jpg',
     alt: 'Coffee with latte art served on a wooden table',
     category: 'Coffee',
   },
   {
-    src: 'https://images.pexels.com/photos/28097283/pexels-photo-28097283.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/food3.jpg',
     alt: 'French toast topped with ice cream and strawberries',
     category: 'Food',
   },
   {
-    src: 'https://images.pexels.com/photos/12802124/pexels-photo-12802124.png?auto=compress&cs=tinysrgb&w=800',
+    src: '/cafe3.jpg',
     alt: 'Modern café interior with wooden chairs and pendant lamp',
     category: 'Cafe',
   },
   {
-    src: 'https://images.pexels.com/photos/36729801/pexels-photo-36729801.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/moment3.jpg',
     alt: 'Friends enjoying conversation over coffee at a cafe',
     category: 'Moments',
   },
