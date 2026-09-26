@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm White */
+    --warm-white: #FAF8F4;
+    /* Deep Espresso Brown */
+    --espresso: #3A2921;
+    /* Coffee Brown */
+    --coffee: #6B4A38;
+    /* Muted Champagne Gold */
+    --gold: #B8945A;
+    /* Light Beige */
+    --beige: #E9DED0;
+
+    /* shadcn-compatible tokens */
+    --background: #FAF8F4;
+    --foreground: #3A2921;
+    --card: #FFFFFF;
+    --card-foreground: #3A2921;
+    --popover: #FFFFFF;
+    --popover-foreground: #3A2921;
+    --primary: #3A2921;
+    --primary-foreground: #FAF8F4;
+    --secondary: #E9DED0;
+    --secondary-foreground: #3A2921;
+    --muted: #E9DED0;
+    --muted-foreground: #6B4A38;
+    --accent: #B8945A;
+    --accent-foreground: #FFFFFF;
+    --destructive: #C0392B;
+    --destructive-foreground: #FFFFFF;
+    --border: #E9DED0;
+    --input: #E9DED0;
+    --ring: #B8945A;
+    --radius: 0.375rem;
+
+    --chart-1: #3A2921;
+    --chart-2: #6B4A38;
+    --chart-3: #B8945A;
+    --chart-4: #E9DED0;
+    --chart-5: #FAF8F4;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background-color: #B8945A;
+    color: #FFFFFF;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-playfair), Georgia, serif;
+  }
+  .font-sans {
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gold-line {
+    background: linear-gradient(90deg, transparent, #B8945A, transparent);
+  }
+  .section-padding {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .section-padding {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #E9DED0;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8945A;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
